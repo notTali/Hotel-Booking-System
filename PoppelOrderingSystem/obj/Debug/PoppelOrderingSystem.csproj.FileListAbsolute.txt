@@ -1,0 +1,79 @@
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\PoppelDatabase.mdf
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\PoppelDatabase_log.ldf
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\PoppelOrderingSystem.exe.config
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\PoppelOrderingSystem.exe
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\PoppelOrderingSystem.pdb
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.csprojAssemblyReference.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.CancelOrder.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateCustomer.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateOrder.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.CustomerCreated.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.CustomerManagement.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateDelivery.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.Report.ExpiredProducts.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.MainForm.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.OrderSummary.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.PresentationLayer.PickingList.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.Properties.Resources.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.csproj.GenerateResource.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.exe
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.pdb
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\MetroFramework.Design.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\MetroFramework.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppel\obj\Debug\PoppelOrderingSystem.csproj.CopyComplete
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelDatabase.mdf
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelDatabase_log.ldf
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelOrderingSystem.exe.config
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelOrderingSystem.exe
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelOrderingSystem.pdb
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\MetroFramework.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csprojAssemblyReference.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CancelOrder.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateCustomer.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateOrder.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CustomerCreated.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CustomerManagement.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateDelivery.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.Report.ExpiredProducts.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.MainForm.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.OrderSummary.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.PickingList.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.Properties.Resources.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csproj.GenerateResource.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csproj.CopyComplete
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.exe
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.pdb
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelDatabase.mdf
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelDatabase_log.ldf
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelOrderingSystem.exe.config
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelOrderingSystem.exe
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\PoppelOrderingSystem.pdb
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\MetroFramework.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csprojAssemblyReference.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CancelOrder.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateCustomer.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateOrder.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CustomerCreated.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CustomerManagement.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.CreateDelivery.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.Report.ExpiredProducts.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.MainForm.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.OrderSummary.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.PickingList.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.Properties.Resources.resources
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csproj.GenerateResource.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.csproj.CopyComplete
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.exe
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.pdb
+C:\Users\Talifhani notTali\Desktop\INF2011S Project\Poppe Project\Poppe Project\PoppelOrderingSystem\obj\Debug\PoppelOrderingSystem.PresentationLayer.OrderCreated.resources

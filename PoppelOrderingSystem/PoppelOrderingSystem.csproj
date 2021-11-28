@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DD595CD-42F5-4C49-A1B0-558803A0E2F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PoppelOrderingSystem</RootNamespace>
+    <AssemblyName>PoppelOrderingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerMangement\CustomerManangementController.cs" />
+    <Compile Include="Database\Database.cs" />
+    <Compile Include="Database\PoppelDatabase.cs" />
+    <Compile Include="Domain\Category.cs" />
+    <Compile Include="Domain\Customer.cs" />
+    <Compile Include="Domain\Employee.cs" />
+    <Compile Include="Domain\Person.cs" />
+    <Compile Include="Domain\Product.cs" />
+    <Compile Include="Email\EmailController.cs" />
+    <Compile Include="Login\LoginController.cs" />
+    <Compile Include="Order\Delivery.cs" />
+    <Compile Include="Order\Order.cs" />
+    <Compile Include="Order\OrderController.cs" />
+    <Compile Include="Order\OrderItem.cs" />
+    <Compile Include="Order\RemoveOrderController.cs" />
+    <Compile Include="Order\RemoveOrderItem.cs" />
+    <Compile Include="PoppelDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PoppelDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CancelOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CancelOrder.Designer.cs">
+      <DependentUpon>CancelOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CreateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CreateCustomer.Designer.cs">
+      <DependentUpon>CreateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CreateOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CreateOrder.Designer.cs">
+      <DependentUpon>CreateOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CustomerCreated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CustomerCreated.Designer.cs">
+      <DependentUpon>CustomerCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CustomerManagement.Designer.cs">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\CreateDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\CreateDelivery.Designer.cs">
+      <DependentUpon>CreateDelivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\ExpiredProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\ExpiredProducts.Designer.cs">
+      <DependentUpon>ExpiredProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order\OrderItemForm.cs" />
+    <Compile Include="PresentationLayer\OrderCreated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\OrderCreated.Designer.cs">
+      <DependentUpon>OrderCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\OrderSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\OrderSummary.Designer.cs">
+      <DependentUpon>OrderSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\PickingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\PickingList.Designer.cs">
+      <DependentUpon>PickingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\ExpiredProductReport.cs" />
+    <Compile Include="Report\PickingListReport.cs" />
+    <Compile Include="Report\Report.cs" />
+    <Compile Include="Report\ReportItem.cs" />
+    <Compile Include="Report\StockItem.cs" />
+    <EmbeddedResource Include="PresentationLayer\CancelOrder.resx">
+      <DependentUpon>CancelOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\CreateCustomer.resx">
+      <DependentUpon>CreateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\CreateOrder.resx">
+      <DependentUpon>CreateOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\CustomerCreated.resx">
+      <DependentUpon>CustomerCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\CustomerManagement.resx">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\CreateDelivery.resx">
+      <DependentUpon>CreateDelivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\ExpiredProducts.resx">
+      <DependentUpon>ExpiredProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\OrderCreated.resx">
+      <DependentUpon>OrderCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\OrderSummary.resx">
+      <DependentUpon>OrderSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\PickingList.resx">
+      <DependentUpon>PickingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="PoppelDatabaseDataSet.xsc">
+      <DependentUpon>PoppelDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PoppelDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PoppelDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PoppelDatabaseDataSet.xss">
+      <DependentUpon>PoppelDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Assets\3914.jpg" />
+    <Content Include="bin\Debug\Assets\3914.png" />
+    <Content Include="bin\Debug\Assets\Asset Reference.txt" />
+    <Content Include="bin\Debug\Assets\astrosBox.png" />
+    <Content Include="bin\Debug\Assets\cherryPlum6pack.png" />
+    <Content Include="bin\Debug\Assets\coke6Pack.png" />
+    <Content Include="bin\Debug\Assets\creamSoda6Pack.png" />
+    <Content Include="bin\Debug\Assets\fanta6Pack.jpg" />
+    <Content Include="bin\Debug\Assets\fanta6Pack.png" />
+    <Content Include="bin\Debug\Assets\fizpop.png" />
+    <Content Include="bin\Debug\Assets\fizzerBox.png" />
+    <Content Include="bin\Debug\Assets\jellyBabies.png" />
+    <Content Include="bin\Debug\Assets\jellyBeans.png" />
+    <Content Include="bin\Debug\Assets\jellyTotsBox.png" />
+    <Content Include="bin\Debug\Assets\marabouChocolate.jpg" />
+    <Content Include="bin\Debug\Assets\marabouChocolate.png" />
+    <Content Include="bin\Debug\Assets\rasperry6Pack.png" />
+    <Content Include="bin\Debug\Assets\sherbet.png" />
+    <Content Include="bin\Debug\Assets\sprite6Pack.png" />
+    <Content Include="bin\Debug\Assets\sprite_6pk.jpg" />
+    <Content Include="bin\Debug\Assets\tWtn470gi2GTAevzRbj1jwaWwtFbmoUDWyzX6XgYbao.png" />
+    <Content Include="bin\Debug\Assets\wineGums.png" />
+    <None Include="Resources\1601548216418.png" />
+    <Content Include="Resources\astrosBox.png" />
+    <Content Include="Resources\BackupOfAssets\3914.jpg" />
+    <Content Include="Resources\BackupOfAssets\3914.png" />
+    <Content Include="Resources\BackupOfAssets\Asset Reference.txt" />
+    <Content Include="Resources\BackupOfAssets\astrosBox.png" />
+    <Content Include="Resources\BackupOfAssets\cherryPlum6pack.png" />
+    <Content Include="Resources\BackupOfAssets\coke6Pack.png" />
+    <Content Include="Resources\BackupOfAssets\creamSoda6Pack.png" />
+    <Content Include="Resources\BackupOfAssets\fanta6Pack.jpg" />
+    <Content Include="Resources\BackupOfAssets\fanta6Pack.png" />
+    <Content Include="Resources\BackupOfAssets\fizpop.png" />
+    <Content Include="Resources\BackupOfAssets\fizzerBox.png" />
+    <Content Include="Resources\BackupOfAssets\jellyBabies.png" />
+    <Content Include="Resources\BackupOfAssets\jellyBeans.png" />
+    <Content Include="Resources\BackupOfAssets\jellyTotsBox.png" />
+    <Content Include="Resources\BackupOfAssets\marabouChocolate.jpg" />
+    <Content Include="Resources\BackupOfAssets\marabouChocolate.png" />
+    <Content Include="Resources\BackupOfAssets\rasperry6Pack.png" />
+    <Content Include="Resources\BackupOfAssets\sherbet.png" />
+    <Content Include="Resources\BackupOfAssets\sprite6Pack.png" />
+    <Content Include="Resources\BackupOfAssets\sprite_6pk.jpg" />
+    <Content Include="Resources\BackupOfAssets\tWtn470gi2GTAevzRbj1jwaWwtFbmoUDWyzX6XgYbao.png" />
+    <Content Include="Resources\BackupOfAssets\wineGums.png" />
+    <Content Include="Resources\cherryPlum6pack.png" />
+    <Content Include="Resources\creamSoda6Pack.png" />
+    <Content Include="Resources\fizpop.png" />
+    <Content Include="Resources\fizzerBox.png" />
+    <Content Include="Resources\images.jpg" />
+    <Content Include="Resources\jellyBabies.png" />
+    <Content Include="Resources\jellyBeans.png" />
+    <Content Include="Resources\poppelLogo.png" />
+    <Content Include="PoppelDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PoppelDatabase_log.ldf">
+      <DependentUpon>PoppelDatabase.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\rasperry6Pack.png" />
+    <Content Include="Resources\sherbet.png" />
+    <Content Include="Resources\wineGums.png" />
+    <None Include="Resources\Coke6Pack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

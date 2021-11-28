@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PoppelOrderingSystem.Domain.Category">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAABAAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Domain\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Domain.Customer">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAABAAQAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Domain.Employee">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Domain.Person">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAACAAAAAgAAAEQASABEIEAAACIEAAAAAAAgA=</HashCode>
+      <FileName>Domain\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Domain.Product">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAjIAABAQCgAQAAIAAAAAAQAAAAUAAAAAAABAAAIiA=</HashCode>
+      <FileName>Domain\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Order.Delivery">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAEAQAABAGAA=</HashCode>
+      <FileName>Order\Delivery.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Order.OrderController">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgQAFAAUACCFgCAgIIEAQAARAQAEAAAAABAAAAJg=</HashCode>
+      <FileName>Order\OrderController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Customer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Order.OrderItem">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>Order\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Order.OrderItemForm">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAQAAAAEBATAAAQAiAQACEgEQABAAkAAAAgACgA=</HashCode>
+      <FileName>Order\OrderItemForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OrderController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Order.RemoveOrderController">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAABAAAAAU=</HashCode>
+      <FileName>Order\RemoveOrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Order.RemoveOrderItem">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Order\RemoveOrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Login.LoginController">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Report.ExpiredProductReport">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAYAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ExpiredProductReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Report.PickingListReport">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Report\PickingListReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Report.Report">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>Report\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Report.ReportItem">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAgAAAAIAAAAAAAAAAAAACAEAgAgAAIAAA=</HashCode>
+      <FileName>Report\ReportItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoppelOrderingSystem.Report.StockItem">
+    <Position X="3" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAoACA=</HashCode>
+      <FileName>Report\StockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
